@@ -15,5 +15,10 @@ namespace AboutME
         {
             return $"Thanks for playing {x}, have a great day";
         }
+
+        public string R3(string x, int y)
+        {
+            return $"Wow {x}, {y} is a stupid age.";
+        }
     }
 }
