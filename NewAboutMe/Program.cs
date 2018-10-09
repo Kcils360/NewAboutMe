@@ -16,12 +16,15 @@ namespace AboutME
             CityBorn cityBorn = new CityBorn();
             KilingPizza kilingPizza = new KilingPizza();
             Toppings toppings = new Toppings();
+            
 
             Console.WriteLine(questions.Q1());
             string userName = Console.ReadLine();
             Console.WriteLine(responses.R1(userName));
-
             Console.ReadKey();
+            Console.WriteLine(questions.Q5());
+            var age = Console.ReadLine();
+            
 
             Console.WriteLine(questions.Q2());
             string answer1 = Console.ReadLine().ToLower();
